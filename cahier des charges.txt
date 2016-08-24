@@ -1,27 +1,27 @@
-INTRO
+﻿INTRO
 
-Hackem est un jeu de type hack n slash dont le d�veloppement est totalement exp�rimental dans le sens o� il s'agit pour moi de cr�er un jeu
-sur unity 2d en apprenant des choses mais surtout en le r�alisant de fa�on professionnelle, d'o� le cahier des charges et les diagrammes qui
+Hackem est un jeu de type hack n slash dont le developpement est totalement experimental dans le sens ou il s'agit pour moi de creer un jeu
+sur unity 2d en apprenant des choses mais surtout en le realisant de facon professionnelle, d'ou le cahier des charges et les diagrammes qui
 suivront.
-Je pr�f�re l'avouer tout de suite, ce jeu sera fortement inspir� dans son gameplay par le jeu qui me tient � coeur qu'est Diablo.
+Je prefere l'avouer tout de suite, ce jeu sera fortement inspire dans son gameplay par le jeu qui me tient a coeur qu'est Diablo.
 
 LE JEU
 
-Le jeu �voluera constamment, mais l'id�e principale est que l'on incarne un petit personnage sur la gauche de l'�cran qui se d�place (en r�alit� il est fixe mais un fond d'�cran lui, bouge)
-vers la droite o� litt�ralement des hordes d'ennemis (~environ des vagues de 20) foncent vers lui. le personnage disposera de 2 comp�tences (ce nombre 
-est susceptible de changer) parmi une flopp�e de comp�tences disponibles. Il poss�dera un arbre de talents (objectif secondaire), des niveaux (secondaire),
-une barre de vie (primaire) et un bouton pause permettant de retourner au menu principal (primaire), un inventaire o� il pourra s'�quiper (secondaire) et des caract�ristiques (primaire).
+Le jeu evoluera constamment, mais l'idee principale est que l'on incarne un petit personnage sur la gauche de l'ecran qui se deplace (en realite il est fixe mais un fond d'ecran lui, bouge)
+vers la droite ou litteralement des hordes d'ennemis (~environ des vagues de 20) foncent vers lui. Le personnage disposera de 2 competences (ce nombre 
+est susceptible de changer) parmi une floppee de competences disponibles. Il possedera un arbre de talents (objectif secondaire), des niveaux (secondaire),
+une barre de vie (primaire) et un bouton pause permettant de retourner au menu principal (primaire), un inventaire ou il pourra s'equiper (secondaire) et des caracteristiques (primaire).
 
-Les objectifs secondaires ne seront d�velopp�s que lorsque les primaires fonctionneront correctement.
+Les objectifs secondaires ne seront developpes que lorsque les primaires fonctionneront correctement.
 
-Un boss appara�tra tous les 5 niveaux. La difficult� du jeu sera r�glable depuis le menu principal et il persistera une seule sauvegarde du jeu.
-Une modification de la difficult� implique une variation des pv (points de vie) des monstres, de leurs d�gats et du loot (butin) qu'ils laisseront tomber.
+Un boss apparaitra tous les 5 niveaux. La difficulte du jeu sera reglable depuis le menu principal et il persistera une seule sauvegarde du jeu.
+Une modification de la difficulte (possible a tout moment depuis le menu principal) implique une variation des pv (points de vie) des monstres, de leurs degats et du loot (butin) qu'ils laisseront tomber.
 
-Pour le moment, je pense que le pallier max sera 100, avec un boss relativement dur donnant acc�s ensuite � une renaissance et le jeu recommencera � z�ro (ou presque) 
-ormis que tous les monstres seront un % plus fort (celui-ci reste � d�terminer). Chaque compl�tion attribuera au joueur un point de talent lui permettant de d�bloquer 
+Pour le moment, je pense que le pallier max sera 100, avec un boss relativement dur donnant acces ensuite e une renaissance et le jeu recommencera a zero (ou presque) 
+hormis que tous les monstres seront un % plus fort (celui-ci reste a determiner). Chaque completion attribuera au joueur un point de talent lui permettant de debloquer 
 une branche de l'arbre. Il pourra comparer son score de talent avec d'autres joueurs.
 
-Dans le futur, un mode multijoueur est � pr�voir
+Dans le futur, un mode multijoueur est a prevoir
 
 Les objets seront plus ou moins rares:
 -Communs 64%
@@ -30,7 +30,7 @@ Les objets seront plus ou moins rares:
 -Legendaires 5%
 -Mythiques 1%
  
-Les objets mythiques seront donc extr�ment rares, mais ce sont les seuls objets qui poss�dent le pouvoir d'am�liorer l'efficacit� d'un sort ou de lui apporter des changements.
+Les objets mythiques seront donc extrement rares, mais ce sont les seuls objets qui possedent le pouvoir d'ameliorer l'efficacite d'un sort ou de lui apporter des changements.
 A chaque pallier (tous les 5 niveaux), les objets auront une modification de chance de tomber:
 
 -Communs -3.5%
@@ -39,7 +39,7 @@ A chaque pallier (tous les 5 niveaux), les objets auront une modification de cha
 -Legendaires +0.5%
 -Mythiques +0%
 
-D�s lors que le pourcentage des objets communs sera en dessous de 20%, la redistribution changera:
+Des lors que le pourcentage des objets communs sera en dessous de 20%, la redistribution changera:
 
 -Communs +0%
 -Magiques -2.5%
@@ -47,7 +47,7 @@ D�s lors que le pourcentage des objets communs sera en dessous de 20%, la redi
 -Legendaires +1%
 -Mythiques +0%
 
-De la m�me fa�on, quand le pourcentage des objets magiques sera de 20%:
+De la meme facon, quand le pourcentage des objets magiques sera de 20%:
 
 -Communs +0%
 -Magiques +0%
@@ -55,7 +55,7 @@ De la m�me fa�on, quand le pourcentage des objets magiques sera de 20%:
 -Legendaires +2%
 -Mythiques +0%
 
-Quand le pourcentage des rares sera inf�rieur � 20%:
+Quand le pourcentage des rares sera inferieur a 20%:
 
 -Communs +0%
 -Magiques +0%
@@ -63,15 +63,20 @@ Quand le pourcentage des rares sera inf�rieur � 20%:
 -Legendaires -1%
 -Mythiques +1%
 
-Ainsi, plus le joueur progresse, plus il devient puissant jusqu'au point o� obtiendra beaucoup d'objets mythiques et o� sa progression sera fulgurante.
-Sans oublier que la difficult� modifie ces facteurs.
+Ainsi, plus le joueur progresse, plus il devient puissant jusqu'au point ou obtiendra beaucoup d'objets mythiques et ou sa progression sera fulgurante.
+Sans oublier que la difficulte modifie ces facteurs.
 
 1/ Le gameplay
 
-Les joueurs pourront choisir diff�rentes voies selon les diff�rentes augmentations des �quipements et/ou arbre de talent:
+Les joueurs pourront choisir differentes voies selon les differentes augmentations des equipements et/ou arbre de talent:
+le score de magie, la vitesse d'attaque, les coups critiques, les dégats de coups critiques, le vol de vie, l'armure et la vie
 
+Ainsi, les joueurs pourront melanger a leur guise les differentes caracteristiques afin d'obtenir une specialisation unique parmis un grand nombre de possibilites
 
-
+Voici la liste des emplacements d'equipements du joueur: collier, anneaux (1 sur chaque main), tete, torse, epaules, ceinture, bras (1 pour chaque bras), pantalon, pieds,
+et armes.
+L'equipement d'arme dependra du talent que le joueur aura selectionner au tout debut du jeu:
+armes dans chaque main, arme et bouclier, arme a deux mains ou arme et catalyseur de puissance.
 
 
 
