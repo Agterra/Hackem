@@ -4,10 +4,14 @@ using System.Collections;
 public class MainMenu : MonoBehaviour {
 
 	public Texture imgTitre;
-	public Texture imgJouer;
-	public Texture imgDifficulte;
-	public Texture imgOptions;
-	public Texture imgQuitter;
+	public Texture imgJouerS;
+	public Texture imgJouerNS;
+	public Texture imgDifficulteS;
+	public Texture imgDifficulteNS;
+	public Texture imgOptionsS;
+	public Texture imgOptionsNS;
+	public Texture imgQuitterS;
+	public Texture imgQuitterNS;
 
 	void onGui(){
 
